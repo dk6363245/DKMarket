@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html; charset=euc-kr">
+<title>DK Market</title>
+<style>
+	@import url("main.css");
+	body {height: 900px;}
+	section {height: auto;}
+</style>
+</head>
+<body>
+	<div id="aaa">
+		<header>
+			<a href="main.html"><img src="DKM.png" width="150px" ; height="90px"  style="border-radius: 10px"></a>
+			<form id="right">
+				<label>I D : <input type="text" size="20" value=""></label>
+				<lbael>비밀번호 : <input type="text" size="20" value=""></lbael>
+				<input type="button" value="로그인">
+				<input type="button" onclick="location.href='register.html'" value="회원가입">
+			</form>
+		</header>	
+		<nav>
+			<p id="center">M E N U</p>
+			<ul>
+				<li><a href="">직구</a>
+					<ul id="font-small">
+						<li><a href="직구란.html">직구란?</a></li>
+						<li><a href="추천상품.html">추천상품</a></li>
+						<li><a href="submit.html">직구신청</a></li>
+						<li><a href="후기.html">후기</a></li>
+						</ul></li>				
+				<li><a href="">DKM</a>
+					<ul id="font-small">
+						<li><a href="회사 소개.html">기업정보</a></ul></li>
+				<li><a href="">event</a>
+					<ul id="font-small">
+						<li><a href="event.html">주된 이벤트</a></ul></li>
+			</ul>
+		</nav>
+		<section>
+			<div id="n" style="  border-radius: 10px; height:40px; text-align: center;">
+			<h2>배송대행 신청</h2></div>
+			<hr>
+			<form>
+			<table style="background-color: white;" border="1">
+				<tr><td style="background-color:#9999FF;">주문번호</td>
+					<td><input type="text" placeholder="주문번호 입력"></td></tr>
+				<tr><td style="background-color:#9999FF;">트래킹 넘버</td>
+					<td><input type="text" placeholder="트래킹 넘버 입력"></td></tr>
+				<tr><td style="background-color:#9999FF;">쇼핑몰 URL</td>
+					<td><input type="text" placeholder="쇼핑몰 주소 입력"></td></tr>
+				<tr><td style="background-color:#9999FF;">상품정보 입력</td>
+					<td>
+						<table border="1">
+							<tr><td rowspan="6"  style="background-color:#CCCCFF;"><input type="button" value="이미지 등록"></td>
+								<td style="background-color:#E2E2E2;">상품명(영문)</td><td><input type="text" placeholder="상품명 영문"></td>
+								<td style="background-color:#E2E2E2;">브랜드/셀러</td><td><input type="text" placeholder="브랜드/판매자 입력"></td></tr>
+								<tr><td style="background-color:#E2E2E2;" rowspan="2">품목</td><td rowspan="2"><input type="button" value="품목 선택"></td><td style="background-color:#E2E2E2;">단가(USD)</td><td><input type="text" placeholfder="단가 입력"></td></tr>
+								<tr><td style="background-color:#E2E2E2;">수량</td><td><input type="text" placeholder="수량 입력"></td></tr>
+								<tr><td style="background-color:#E2E2E2;">트래킹번호</td><td colspan="3"><input type="text"></td></tr>
+								<tr><td style="background-color:#E2E2E2;">ebay 상품코드</td><td colspan="3"><input type="text"></td></tr>
+								<tr><td style="background-color:#E2E2E2;">재품 색상(영문)</td><td><input type="text"></td><td style="background-color:#E2E2E2;">재품 사이즈(영문)</td><td><input type="text"></td></tr>
+						</table>
+					</td></tr>
+					<tr><td style="background-color:#9999FF;">총 구매 비용</td><td>총 구매 비용 <input type="text" name="" placeholder="$0.00"></td></tr>
+					<tr><td style="background-color:#9999FF;">박스제거 옵션</td><td><select>
+						<option value="1" selected="">그대로</option>
+						<option value="2">뒤집어서</option>
+						<option value="3">제거</option>
+					</select></td></tr>
+					
+			</table>
+			</form>
+			<br>
+			<input type="button" value="작성 완료">
+				<br>
+				<br>
+		</section>
+		<aside>
+			<p id="center">Sub Menu</p><br>			
+			support
+			<ul id="font-small">
+					<li><a href="support.html">고객센터</a></li>
+					<li><a href="공지사항.html">공지사항</a></li>
+			</ul>
+		</aside>
+		<footer>
+			<p id="font-xxsmall">회사 정보 - 이름 : DK Online Market<br>
+				copyright - 사이트의 모든 저작권은 DK Market에 있습니다.<br>
+				address - 경상북도 경산시 하양읍 하양로 13-13<br>
+			E-mail - eden616@naver.com</p>
+		</footer>
+	</div>
+</body>
+</html>
